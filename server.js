@@ -53,6 +53,6 @@ app.get('/*', (req, res) => {
 //start the server at specified port
 mongoose.connection.once('open', () => {
     //connected to mongooseDB
-    ("Connected to DB");
+    console.log("Connected to DB");
     app.listen(PORT, () => { console.log(`server running on : http:localhost/${PORT}`) });
 });
