@@ -1,0 +1,8 @@
+body {
+    background-color: #222;
+    color: white;
+    font-size: xx-large;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}

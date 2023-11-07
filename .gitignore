@@ -1,0 +1,18 @@
+# Node.js runtime and dependencies
+/node_modules
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# Environment variables (store these in a .env file)
+.env
+
+# Optional: IDE/Editor-specific files
+.vscode/
+.idea/
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
+
